@@ -1660,6 +1660,13 @@ progress {
     width: 16.666667%;
   }
 
+  /*
+三個值組成，分別代表「彈性基數」（flex-grow）、「彈性收縮」（flex-shrink）和「彈性基準」（flex-basis）
+「彈性基數」（flex-grow） :表示它可以在空間有剩餘時自動伸展。當有多個具有彈性基數的元素時，它們的彈性基數值越大，就越容易伸展。
+「彈性收縮」（flex-shrink）:表示它可以在空間不足時自動收縮。同樣地，當有多個具有彈性收縮的元素時，它們的彈性收縮值越大，就越容易收縮。
+「彈性基準」（flex-basis）:代表元素的彈性基準將根據其內容的寬度自動計算。
+
+*/
   .col-lg-auto {
     flex: 0 0 auto;
     width: auto;
@@ -10138,6 +10145,10 @@ fieldset:disabled .btn {
   padding: 16rem !important;
 }
 
+/*
+增加左右項目間距(同步)
+*/
+
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important;
@@ -10203,6 +10214,9 @@ fieldset:disabled .btn {
   padding-left: 16rem !important;
 }
 
+/*
+增加上下項目間距(同步)
+*/
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -13821,6 +13835,9 @@ fieldset:disabled .btn {
     margin-right: auto !important;
   }
 
+  /*
+  margin-bottom:設置元素的下邊距為 
+  */
   .mb-md-0 {
     margin-bottom: 0 !important;
   }
